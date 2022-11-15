@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\bin\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221010-AnimalesInterfaces\obj\Debug\netcoreapp3.1\20221010-AnimalesInterfaces.genruntimeconfig.cache

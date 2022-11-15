@@ -1,0 +1,28 @@
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.csproj.AssemblyReference.cache
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.AssemblyInfoInputs.cache
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.AssemblyInfo.cs
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.csproj.CoreCompileInputs.cache
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.exe
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.deps.json
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.runtimeconfig.json
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.runtimeconfig.dev.json
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.dll
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.pdb
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.dll
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.pdb
+C:\Users\guzcr\Documents\Teresa\C#\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.genruntimeconfig.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\bin\Debug\netcoreapp3.1\20221016-JuegoAleatorio.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221016-JuegoAleatorio-20221017T075122Z-001\20221016-JuegoAleatorio\obj\Debug\netcoreapp3.1\20221016-JuegoAleatorio.genruntimeconfig.cache

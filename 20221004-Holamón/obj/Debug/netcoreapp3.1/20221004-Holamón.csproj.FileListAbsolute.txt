@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\bin\Debug\netcoreapp3.1\20221004-Holamón.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221004-Holamón\obj\Debug\netcoreapp3.1\20221004-Holamón.genruntimeconfig.cache

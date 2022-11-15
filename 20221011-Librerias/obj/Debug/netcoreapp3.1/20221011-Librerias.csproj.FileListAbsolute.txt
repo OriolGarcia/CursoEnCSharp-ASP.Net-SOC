@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\bin\Debug\netcoreapp3.1\20221011-Librerias.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Librerias\obj\Debug\netcoreapp3.1\20221011-Librerias.genruntimeconfig.cache

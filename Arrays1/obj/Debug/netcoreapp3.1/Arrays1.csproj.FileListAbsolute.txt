@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\bin\Debug\netcoreapp3.1\Arrays1.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\Arrays1\obj\Debug\netcoreapp3.1\Arrays1.genruntimeconfig.cache

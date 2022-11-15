@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\bin\Debug\netcoreapp3.1\20221005-DatosPersonales.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221005-DatosPersonales\obj\Debug\netcoreapp3.1\20221005-DatosPersonales.genruntimeconfig.cache

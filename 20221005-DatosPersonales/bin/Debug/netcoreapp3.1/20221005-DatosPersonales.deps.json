@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "20221005-DatosPersonales/1.0.0": {
+        "runtime": {
+          "20221005-DatosPersonales.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "20221005-DatosPersonales/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\bin\Debug\netcoreapp3.1\20221018-Colleciones.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Colleciones\obj\Debug\netcoreapp3.1\20221018-Colleciones.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\bin\Debug\netcoreapp3.1\20221021-Exceptions.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221021-Exceptions\obj\Debug\netcoreapp3.1\20221021-Exceptions.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\bin\Debug\netcoreapp3.1\20221024-ActividadArchivos.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-ActividadArchivos\obj\Debug\netcoreapp3.1\20221024-ActividadArchivos.genruntimeconfig.cache

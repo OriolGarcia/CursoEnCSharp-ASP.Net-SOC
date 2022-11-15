@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\bin\Debug\netcoreapp3.1\20221011-Static.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Static\obj\Debug\netcoreapp3.1\20221011-Static.genruntimeconfig.cache

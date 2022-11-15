@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\bin\Debug\netcoreapp3.1\20221024-Serializacion.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221024-Serializacion\obj\Debug\netcoreapp3.1\20221024-Serializacion.genruntimeconfig.cache

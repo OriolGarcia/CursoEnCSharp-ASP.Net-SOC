@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\bin\Debug\netcoreapp3.1\20221020-Ecomerce.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221020-Ecomerce\obj\Debug\netcoreapp3.1\20221020-Ecomerce.genruntimeconfig.cache

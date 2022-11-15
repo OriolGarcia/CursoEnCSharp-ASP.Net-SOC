@@ -1,0 +1,4 @@
+frase=hola que tal hola
+mayus=HOLA QUE TAL HOLA
+Total paraules=4
+frase generada:hola...que...tal

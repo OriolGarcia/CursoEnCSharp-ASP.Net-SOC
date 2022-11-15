@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\bin\Debug\netcoreapp3.1\20221007-Cuenta.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221007-Cuenta\obj\Debug\netcoreapp3.1\20221007-Cuenta.genruntimeconfig.cache

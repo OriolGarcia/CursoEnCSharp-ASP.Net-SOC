@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\bin\Debug\netcoreapp3.1\20221022-Peliculas.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221022-Peliculas\obj\Debug\netcoreapp3.1\20221022-Peliculas.genruntimeconfig.cache

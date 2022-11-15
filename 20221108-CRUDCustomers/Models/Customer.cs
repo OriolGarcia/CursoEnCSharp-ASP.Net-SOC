@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Net;
+using System.Reflection.PortableExecutable;
+using System.Text;
+
+namespace Neptuno.Models
+{
+    public class Customer
+    {
+        public string CustomerID { get; set; }
+        public string CompanyName { get; set; }
+        public string ContactName { get; set; }
+        public string ContactTitle { get; set; }
+        public string Address { get; set; }
+        public string City { get; set; }
+        public string Region { get; set; }
+        public string PostalCode { get; set; }
+        public string Country { get; set; }
+        public string Phone { get; set; }
+        public string Fax { get; set; }
+
+        public override string ToString()
+        {
+            return CustomerID +
+                        CompanyName +
+                        ContactName +
+                        ContactTitle +
+                        Address +
+                        City +
+                        Region +
+                        PostalCode +
+                        Country +
+                        Phone +
+                        Fax;
+        }
+    }
+
+
+}

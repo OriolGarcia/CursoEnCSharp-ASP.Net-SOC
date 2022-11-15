@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "20221007-Cuenta/1.0.0": {
+        "runtime": {
+          "20221007-Cuenta.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "20221007-Cuenta/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

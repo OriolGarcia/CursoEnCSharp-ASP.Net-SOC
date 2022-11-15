@@ -1,0 +1,28 @@
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.csproj.AssemblyReference.cache
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.AssemblyInfoInputs.cache
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.AssemblyInfo.cs
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.csproj.CoreCompileInputs.cache
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.exe
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.deps.json
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.runtimeconfig.json
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.runtimeconfig.dev.json
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.dll
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.pdb
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.dll
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.pdb
+C:\Users\ogs10\source\repos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.genruntimeconfig.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\netcoreapp3.1\CarreraDeCaballos.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\CarreraDeCaballos\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\netcoreapp3.1\CarreraDeCaballos.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\bin\Debug\netcoreapp3.1\20221018-Bucles.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221018-Bucles\obj\Debug\netcoreapp3.1\20221018-Bucles.genruntimeconfig.cache

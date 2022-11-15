@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\bin\Debug\netcoreapp3.1\20221006_Animales.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221006_Animales\obj\Debug\netcoreapp3.1\20221006_Animales.genruntimeconfig.cache

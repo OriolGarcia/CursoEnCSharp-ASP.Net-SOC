@@ -1,0 +1,11 @@
+{
+  "Nombre": "Christophe",
+  "Apellido": "Mommer",
+  "Edad": 33,
+  "Dirección": {
+    "Calle": "Plaza del Reloj",
+    "Ciudad": "Talavera de la Reina",
+    "CodigoPostal": "08013",
+    "Pais": "España"
+  }
+}

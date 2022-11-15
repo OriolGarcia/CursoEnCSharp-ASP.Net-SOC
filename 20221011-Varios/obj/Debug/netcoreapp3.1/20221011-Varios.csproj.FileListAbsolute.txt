@@ -1,0 +1,14 @@
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.exe
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.deps.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.runtimeconfig.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.runtimeconfig.dev.json
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\bin\Debug\netcoreapp3.1\20221011-Varios.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.csproj.AssemblyReference.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.AssemblyInfoInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.AssemblyInfo.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.csproj.CoreCompileInputs.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.pdb
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221011-Varios\obj\Debug\netcoreapp3.1\20221011-Varios.genruntimeconfig.cache
