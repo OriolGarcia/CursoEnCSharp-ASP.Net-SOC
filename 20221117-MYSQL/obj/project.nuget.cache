@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "sCEfMw9AllDtIgXdGxzzHUJYkYhReKri9xeUxZjWKn1tHuKuyYGCfhBdJ/b5LD7+PYmuw2DB/qUUiQ7Xk3uHRg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alumne_mati1\\Documents\\Oriol Garcia\\Projectes\\20221117-MYSQL\\20221117-MYSQL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alumne_mati1\\.nuget\\packages\\mysqlconnector\\2.2.0\\mysqlconnector.2.2.0.nupkg.sha512",
+    "C:\\Users\\Alumne_mati1\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
+    "C:\\Users\\Alumne_mati1\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Alumne_mati1\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

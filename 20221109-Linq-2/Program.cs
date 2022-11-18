@@ -46,7 +46,9 @@ namespace _20221109_Linq
 
             //EX3Linq();
             //Ex4();
-            BuscadorproEmpleado();
+            //BuscadorproEmpleado();
+            //EXAMEN_AC1_3();
+            EXAMEN_AC1_4();
         }
 
         public static void Test01()
@@ -1073,7 +1075,7 @@ namespace _20221109_Linq
             var lista = dbContext.Products
                         .Where(p => p.Category.CategoryName == "Beverages" || p.Category.CategoryName == "Confections"
                         || p.Category.CategoryName == "Meat/Poultry")
-                        .OrderBy(od => od.Category.CategoryName)
+                        .OrderBy(od => od.Category.CategoryName).OrderBy(od => od.ProductName)
                         .ThenBy(p => p.ProductName)
                         .Select(p => new
                         {
@@ -1096,16 +1098,48 @@ namespace _20221109_Linq
 
 
         }
-        public static void Ex4()//Expressions Linq
+        public static void EXAMEN_AC1_3()
+        {
+
+
+            var dbContext = new NeptunoContext();
+            var lista = dbContext.Products
+                        .Where(p => p.Supplier.Country == "France" || p.Supplier.Country == "Germany"
+                        || p.Supplier.Country == "Italy")
+                        .OrderBy(p => p.ProductName).OrderBy(p => p.Supplier.CompanyName)
+
+
+                        .Select(p => new
+                        {
+                            Suplier= p.Supplier.CompanyName,
+                            ProductName = p.ProductName,
+                            UnitPrice = p.UnitPrice,
+                            InStock = p.UnitsInStock,
+                            Discontiued = p.Discontinued,
+
+                        });
+            Console.WriteLine("Count\t\tProveidor\t\t Product \t\t UnitPrice\t\t InStock\t\t Discontiued");
+            int count = 0;
+            foreach (var p in lista)
+            {
+
+                Console.WriteLine(count + "\t\t" + p.Suplier + "\t\t" + p.ProductName + "\t\t" + p.UnitPrice + "\t\t" + p.InStock + "\t\t" + p.Discontiued);
+                count++;
+            }
+
+
+
+        }
+        public static void EXAMEN_AC1_4()//Expressions Linq
         {
             var dbContext = new NeptunoContext();
             var lista = from od in dbContext.OrderDetails
-                        join o in dbContext.Orders on od.OrderId equals o.OrderId
-                        join c in dbContext.Customers on o.CustomerId equals c.CustomerId
+                        join p in dbContext.Products on od.ProductId equals p.ProductId
+                        join s in dbContext.Suppliers on p.SupplierId equals s.SupplierId
 
                         group od by new
                         {
-                            Country = c.Country,
+                            Country = s.Country,
                         } into g
                         orderby g.Key.Country
                         select new
@@ -1123,7 +1157,7 @@ namespace _20221109_Linq
             foreach (var od in lista)
             {
                 counter++;
-                Console.WriteLine(od.Country + "\t\t" + od.Importe);
+                Console.WriteLine(od.Country + "\t\t" + ((decimal)od.Importe).ToString("N2") );
 
             }
 

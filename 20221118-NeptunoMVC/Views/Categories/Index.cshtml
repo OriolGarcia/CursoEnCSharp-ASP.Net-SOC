@@ -1,0 +1,37 @@
+﻿@using _20221118_NeptunoMVC.Dal;
+@{
+	ViewData["Title"] = "Categories";
+}
+<div class="row">
+	<div class="col" style="text-align:center;margin-bottom:25px;">
+		<h1>Categories</h1>
+	</div>
+</div>
+<div class="row">
+
+	@{
+		var lista=(List<Category>)ViewData["categories"];
+		foreach(var item in lista){
+
+			string nombreImagen = "category" + item.CategoryId + "-small.jpeg";
+					
+						<div class="col-lg-3 col-md-3 col-sm-6">
+
+								<p>	
+									<a href="/Products/Index?idCategoryId=@item.CategoryId">
+										<img src="~/images/categories/@nombreImagen" width="100%" alt="@item.CategoryName" title="@item.CategoryName" />
+									</a>
+								</p>
+								<a href="/Products/Index?idCategoryId=@item.CategoryId" class="text-dark">
+									
+										<h2>@item.CategoryName</h2>
+									
+								</a>
+								<p>@item.Description</p>
+							
+						</div>
+				
+		}
+		
+	}
+</div>
