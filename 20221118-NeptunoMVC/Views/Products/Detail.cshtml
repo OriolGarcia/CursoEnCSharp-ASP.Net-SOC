@@ -1,0 +1,87 @@
+﻿@{
+	ViewData["Title"] = "Ficha de producto";
+}
+
+<div class="row">
+	<div class="col-md-4">
+		<!--Imagen-->
+		@Html.Raw(ViewData["imagen"])
+		<hr/>
+		<!--Categoría-->
+		@ViewData["categoria"]
+
+	</div>
+	<div class="col-md-8">
+		<!--Nombre Producto-->
+		<h1>
+			@ViewData["nombreProducto"]
+		</h1>
+		
+		<!--Precio-->
+		<h2>@ViewData["precio"]</h2>
+
+		<!--Descripción-->
+		<h4>@ViewData["descripcion"]</h4>
+
+		<!--Stock-->
+		@Html.Raw(ViewData["stock"])
+
+		<!--Ventas-->
+		<p><b>Ventas: </b> @ViewData["ventas"]</p>
+
+		<!--Historial de ventas-->
+		<input type="button" class="btn btn-primary" id="btnHistorial"
+			value="Historial de ventas" onclick="getHistorial();" />
+
+	</div>
+</div>
+<div class="row">
+	<div class="col">
+		<div id="cpaHistorial" 
+			style="width:100%; background-color: #f1f1f1; display: none;">
+			<h2>Historial de ventas</h2>
+			<div id="contenidoHistorial" style="width:100%; text-align:center;">
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+	function getHistorial()
+	{
+		if ($("#cpaHistorial").css("display")=="none")
+		{
+			//Está oculta y hay que mostrarla
+			$("#cpaHistorial").css("display","block");
+
+			//Desactivar botón
+			$("#btnHistorial").attr("disabled",true);
+
+			//Mostrar waiting
+			$("#contenidoHistorial").html("<img src='/images/loading.gif' width='50' />");
+
+			//Ajax para calcular el histórico
+			//Ajax nativo javascript
+			const xhttp = new XMLHttpRequest();
+			xhttp.onload = function () 
+			{
+				//Callback
+				//Actualización UI vía this.responseText;
+				document.getElementById("contenidoHistorial").innerHTML=this.responseText;
+
+				//Activar botón de nuevo
+				document.getElementById("btnHistorial").disabled=false;
+			}
+			xhttp.open("GET", "/Products/GetHistorico?productId=@ViewData["ProductId"]", true);
+			xhttp.send();
+		}
+		else
+		{
+			//Está mostrada y hay que ocultarla
+			$("#cpaHistorial").css("display", "none");
+
+		}
+	}
+</script>

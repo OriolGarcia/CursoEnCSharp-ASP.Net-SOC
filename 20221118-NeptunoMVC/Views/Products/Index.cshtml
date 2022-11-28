@@ -1,52 +1,148 @@
-﻿@using _20221118_NeptunoMVC.Dal;
+﻿@using System.IO
+@using _20221118_NeptunoMVC.Dal;
 @{
 	ViewData["Title"] = "Products";
 }
+@{
+	ViewData["Title"] = "Products";
+}
+
 <div class="row">
 	<div class="col" style="text-align:center;margin-bottom:25px;">
 		<h1>@ViewData["Title"]</h1>
 	</div>
 </div>
+<!-- Panel filtrado-->
+<div class="row" style="margin-bottom:20px">
+	<div class="col text-center">
+		Categorias: @Html.Raw(@ViewData["cmbCategorias"])
+		Texto:@Html.Raw(@ViewData["txtTexto"])
+		<input type="button" class="btn btn-primary" value="Buscar" onclick="search();"/>
+	</div>
+</div>
 <div class="row">
 	<div class="col">
-		<table class="table table table-striped">
-			<tr>
-				<th>Image</th>
-				<th>Product</th>
-				<th>Category</th>
-				<th>Price</th>
-				<th>Stock</th>
-				<th>State</th>
-				<th>Options</th>
-			</tr>
-			@{
-				var lista = (List<ProductSlim>)ViewData["products"];
-				foreach(var item in lista){
-									<tr>
-										<td>Image</td>
-										<td>@item.ProductName</td>
-										<td>@item.CategoryName</td>
-										<td>@item.Price</td>
-										<td>@item.Stock</td>
-										<td>@item.State</td>
-										<td>item.Options</td>
-									</tr>
+		<div class="table-responsive">
+			<table class="table table-bordered table-striped">
+				<tr>
+					<th>Image</th>
+					<th>Product</th>
+					<th>Category</th>
+					<th>Price</th>
+					<th>Stock</th>
+					<th>State</th>
+					<th>Options</th>
+				</tr>
+				@{
+					foreach (var item in (List<ProductSlim>)ViewData["products"])
+					{
+						string imagen = "";
+						string nombreImagen = item.ProductId + "lr.jpg";
+						string nombreImagenHR = item.ProductId + "hr.jpg";
+						var path = (string)AppDomain.CurrentDomain.GetData("WebRootPath") + 
+							"wwwroot\\images\\products\\" + nombreImagen;
+
+						if (File.Exists(path))
+						{
+							imagen = "<a href='/images/products/" + nombreImagenHR + "' " +
+									"data-lightbox='image-"+item.ProductId+"' data-title='" + item.ProductName + "'> " +
+											"<img src='/images/products/" + nombreImagen + "' height='75' />" +
+										"</a>";
+						}
+
+						//Formateado de datos
+						string strPrice = ((decimal)item.Price).ToString("N2");
+						string strState = (item.State) ? "Active" : "Discontinued";
+						strState="<a href='javascript:void(0);' onClick='changeState("+item.ProductId+");'>"+strState+"</a>";
+						
+						
+						
+																<tr>
+																			<td>
+																				@Html.Raw(imagen)
+																			</td>
+																			<td>
+																				<a href="/Products/Detail?ProductId=@item.ProductId">
+																					@item.ProductName
+																				</a>
+																			</td>
+																			<td>@item.CategoryName</td>
+																			<td>@strPrice</td>
+																			<td>@item.Stock</td>
+																			<td id="state_@item.ProductId">@Html.Raw(@strState)</td>
+																			<td>
+																				<a href="/Products/Detail?ProductId=@item.ProductId">
+																					<i class="fa fa-product-hunt" aria-hidden="true"></i>
+																				</a>
+																			</td>
+																		</tr>
+					}
 				}
-				
-			}
-			
-		</table>
+			</table>
+		</div>
 	</div>
 </div>
 <div class="row">
 	<div class="col text-center">
-		<input type="button" class="btn btn-primary" value="Back to Categories"
+		<input type="button" class="btn btn-primary" value="Back to Categories" 
 			onclick="backCategories();" />
-		<a href="/Categories/Index" class="btn btn-primary"role="button" >Back to Categories</a>
+
+		<a href="/Categories/Index" class="btn btn-primary" role="button">Back to Categories</a>
 	</div>
 </div>
+
 <script>
-	function backCategories(){
+	function backCategories()
+	{
+		//Hacer algo importante
+		//...
+
+		//Redirección
 		location.href="/Categories/Index";
+	}
+	function changeState(productId)
+	{
+		var content = $("#state_" + productId).html()
+		$("#state_" + productId).html("<img src='/images/loading.gif' width='32'/>");
+		
+		$.ajax({
+			// la URL para la petición
+			url: '/Products/ChangeState',
+
+			data: { productId: productId },
+
+			type: 'GET',
+
+
+			// código a ejecutar si la petición es satisfactoria;
+			// la respuesta es pasada como argumento a la función
+			success: function (resp) {
+
+				var strState = "<a href='javascript:void(0);' onClick='changeState(" + productId + ");'>" + resp + "</a>";
+				$("#state_"+productId).html(strState);
+				
+			},
+
+			// código a ejecutar si la petición falla;
+			// son pasados como argumentos a la función
+			// el objeto de la petición en crudo y código de estatus de la petición
+			error: function () {
+
+				alert('Se ha producido un error');
+				$("#state_" + productId).html(content);
+			},
+
+			// código a ejecutar sin importar si la petición falló o no
+			complete: function (xhr, status) {
+				//alert('Petición realizada');
+			}
+		});
+	}
+	function search(){
+		//Recoger parametros del buscador y recargar página con parametros
+		var categoria=$("#cmbCategorias").val();
+		var texto=$("#txtSearch").val();
+		location.href="/Products/Index?CategoryId="+categoria+"&search="+texto;
+
 	}
 </script>
