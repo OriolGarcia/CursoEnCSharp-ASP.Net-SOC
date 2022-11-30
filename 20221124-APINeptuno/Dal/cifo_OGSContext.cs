@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
-namespace _20221118_NeptunoMVC.Dal
+namespace _20221124_APINeptuno.Dal
 {
     public partial class cifo_OGSContext : DbContext
     {
@@ -31,6 +31,7 @@ namespace _20221118_NeptunoMVC.Dal
         public virtual DbSet<Supplier> Suppliers { get; set; }
         public virtual DbSet<Support> Supports { get; set; }
         public virtual DbSet<Territory> Territories { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -496,6 +497,29 @@ namespace _20221118_NeptunoMVC.Dal
                     .HasForeignKey(d => d.RegionId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("FK_Territories_Region");
+            });
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.Property(e => e.UserId)
+                    .HasColumnType("int(11)")
+                    .ValueGeneratedNever()
+                    .HasColumnName("userId");
+
+                entity.Property(e => e.Login)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("login");
+
+                entity.Property(e => e.Nombre)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("nombre");
+
+                entity.Property(e => e.Password)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("password");
             });
 
             OnModelCreatingPartial(modelBuilder);

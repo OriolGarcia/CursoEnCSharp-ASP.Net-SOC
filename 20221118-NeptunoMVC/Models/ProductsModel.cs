@@ -17,7 +17,7 @@ namespace _20221118_NeptunoMVC.Models
                     .OrderBy(p => p.ProductName)
                     .Select(p => new ProductSlim
                     {
-                        ProductId = p.ProductId,
+                        ProductId = p.ProductId.ToString(),
                         ProductName = p.ProductName,
                         CategoryName = p.Category.CategoryName,
                         Price = p.UnitPrice,
@@ -136,7 +136,7 @@ namespace _20221118_NeptunoMVC.Models
         }
         public class ProductSlim
         {
-            public int ProductId { get; set; }
+            public  string ProductId { get; set; }
             public string ProductName { get; set; }
             public string CategoryName { get; set; }
             public decimal? Price { get; set; }

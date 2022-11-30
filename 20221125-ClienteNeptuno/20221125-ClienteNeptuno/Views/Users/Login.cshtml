@@ -1,0 +1,48 @@
+﻿
+@{
+	ViewData["Title"] = "Login";
+}
+
+<div class="row">
+	<div class="col">
+		<h1>@ViewData["Title"]</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<form action="/Users/DoLogin" method="post" onsubmit="return validar()">
+			<!-- codigo Validacion formulario.Codigo anti Forgery-->
+			<div class="form-group row">
+				<label for="txtNombre" class="col-sm-3 col-form-label">Login:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="txtNombre" 
+						name="login"  required>
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="password" class="col-sm-3 col-form-label">Password:</label>
+				<div class="col-sm-9">
+					<input type="password" class="form-control" id="txtEmail"
+						   name="password" required>
+				</div>
+			</div>
+			
+			
+			<div class="form-group row">
+				<label for="" class="col-sm-3 col-form-label"></label>
+				<div class="col-sm-9">
+					<input type="submit" class="btn btn-primary" value="Login" />
+				</div>
+			</div>
+			<div id="respone" class="text-danger text-center">
+				@ViewData["Mensaje"]
+			</div>
+		</form>
+	</div>
+	<div class="col-md-6">
+		<!-- Información de contacto -->
+		<h4>Introduzca su login y password par acceder</h4>
+	
+
+	</div>
+</div>

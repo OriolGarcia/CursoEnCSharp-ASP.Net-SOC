@@ -62,7 +62,7 @@
 																				@Html.Raw(imagen)
 																			</td>
 																			<td>
-																				<a href="/Products/Detail?ProductId=@item.ProductId">
+																				<a href="/Products/Detail?p=@item.ProductId">
 																					@item.ProductName
 																				</a>
 																			</td>
@@ -71,8 +71,11 @@
 																			<td>@item.Stock</td>
 																			<td id="state_@item.ProductId">@Html.Raw(@strState)</td>
 																			<td>
-																				<a href="/Products/Detail?ProductId=@item.ProductId">
+																				<a href="/Products/Detail?p=@item.ProductId">
 																					<i class="fa fa-product-hunt" aria-hidden="true"></i>
+																				</a>
+																				<a href="/Products/Edit?p=@item.ProductId">
+																					<i class="fa fa-pencil-square-o" aria-hidden="true" title="Editar"></i>
 																				</a>
 																			</td>
 																		</tr>

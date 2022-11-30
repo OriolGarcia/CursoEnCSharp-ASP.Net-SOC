@@ -364,3 +364,4 @@ C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221118-NeptunoMVC\obj\D
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221118-NeptunoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Customer\Detail.cshtml.g.cs
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221118-NeptunoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Support\Index.cshtml.g.cs
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221118-NeptunoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Support\SendMessage.cshtml.g.cs
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221118-NeptunoMVC\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs

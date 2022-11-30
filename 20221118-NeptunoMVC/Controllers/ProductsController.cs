@@ -41,14 +41,21 @@ namespace _20221118_NeptunoMVC.Controllers
 
 
                 var lista = pm.GetProducts(CategoryId, search);
+                foreach(var item in lista)
+            {
 
+                item.ProductId = encode(item.ProductId);
+            }
                 ViewData["products"] = lista;
 
                 return View();
             }
 
-            public IActionResult Detail(int ProductId = 0)
+            public IActionResult Detail(string p ="")
             {
+                int ProductId = int.Parse(decode(p));
+
+                
                 //TO_DO
                 ProductsModel pm = new ProductsModel();
                 var product = pm.GetProduct(ProductId);
@@ -101,7 +108,27 @@ namespace _20221118_NeptunoMVC.Controllers
                 return View();
             }
 
+        [HttpGet]
+        public IActionResult Edit(string p = "")
+        {
+            int ProductId = int.Parse(decode(p));
 
+
+            //TO_DO
+            ProductsModel pm = new ProductsModel();
+            var product = pm.GetProduct(ProductId);
+
+            ViewData["ProductId"] = p;
+
+            return View(product);
+        }
+        [HttpPost]
+        public IActionResult Edit()
+        {
+
+
+            return View();
+         }
             //Ajax
             public string ChangeState(int productId)
             {
@@ -173,6 +200,20 @@ namespace _20221118_NeptunoMVC.Controllers
 
                 return resp;
             }
-
+        public string encode(string text)
+        {
+            byte[] mybyte = System.Text.Encoding.UTF8.GetBytes(text);
+            string returntext = System.Convert.ToBase64String(mybyte);
+            return returntext;
         }
+
+        public string decode(string text)
+        {
+            byte[] mybyte = System.Convert.FromBase64String(text);
+            string returntext = System.Text.Encoding.UTF8.GetString(mybyte);
+            return returntext;
+        }
+
+
     }
+}

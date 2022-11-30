@@ -1,0 +1,48 @@
+﻿@model ProductDetail
+@{
+	ViewData["Title"] = "Editar Producto";
+}
+
+<div class="row">
+	<div class="col">
+		<h1>@ViewData["Title"]</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<form action="/Products/Edit" method="post" onsubmit="return validar()">
+			<input type="hidden" id="hidP" name="hidP" value="@ViewData["ProductId"]"
+			<div class="form-group row">
+				<label for="txtNombre" class="col-sm-3 col-form-label">Nombre:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="txtNombre"
+						   name="txtNombre" placeholder="Nombre completo" required value="@Model.ProductName">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="txtPrecio" class="col-sm-3 col-form-label">Precio:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="txtPrecio"
+						   name="txtPrecio" placeholder="Precio" required value="@Model.Price">
+				</div>
+			</div>
+			<div class="form-group row">
+				<label for="txtStock" class="col-sm-3 col-form-label">Stock:</label>
+				<div class="col-sm-9">
+					<input type="text" class="form-control" id="txtStock"
+						   name="txtStock" placeholder="Stock" required value="@Model.Stock">
+				</div>
+			<div class="form-group row">
+				<label for="" class="col-sm-3 col-form-label"></label>
+				<div class="col-sm-9">
+					<input type="submit" class="btn btn-primary" value="Guardar" />
+				</div>
+			</div>
+		</form>
+	</div>
+	
+	<script>
+		function validar(){
+		return true;}
+		
+		</script>

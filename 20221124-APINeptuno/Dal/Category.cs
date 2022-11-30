@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 #nullable disable
 
-namespace _20221118_NeptunoMVC.Dal
+namespace _20221124_APINeptuno.Dal
 {
     public partial class Category
     {

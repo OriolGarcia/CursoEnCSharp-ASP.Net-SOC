@@ -1,9 +1,6 @@
-﻿using _20221118_NeptunoMVC.Dal;
+﻿using _20221124_APINeptuno.Dal;
 using APINeptuno.Models;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -54,11 +51,17 @@ namespace _20221124_APINeptuno.Controllers
                     
                     ProductId = od.ProductId,
                     ProductName=od.Product.ProductName,
+
+                    CategoryName=od.Product.Category.CategoryName,
+                    SuplierName=od.Product.Supplier.CompanyName,
+                    Price=od.Product.UnitPrice,
+                    Stock=od.Product.UnitsInStock,
+                    State=(od.Product.Discontinued==0)?true:false,
                     Quantity=od.Quantity,
                     UnitPrice=od.UnitPrice,
                     Discount=od.Discount,
                     Amount =  od.Quantity * od.UnitPrice + (1 - (decimal)od.Discount)
-                }).ToList();
+                }).OrderBy(p=> p.ProductName).ToList();
 
             oe.Lista = orderDetails;
 
