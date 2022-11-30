@@ -1,4 +1,5 @@
 ﻿using _20221124_APINeptuno.Dal;
+using _20221125_ClienteNeptuno.Filters;
 using _20221125_ClienteNeptuno.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -16,9 +17,10 @@ namespace _20221125_ClienteNeptuno.Controllers
         }
 
         [HttpGet]
+        [SessionFilter]
         public IActionResult Login()
         {
-           
+            if (HttpContext.Session.GetString("UserId") != null) return RedirectToAction("Index", "Home");
             ViewData["UserId"] = null;
             string S = HttpContext.Request.Query["S"];
             if (S == "1")

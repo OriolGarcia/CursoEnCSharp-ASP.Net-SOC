@@ -1,3 +1,4 @@
+using _20221125_ClienteNeptuno.Filters;
 using _20221125_ClienteNeptuno.Services;
 using _20221125_ClienteNeptuno.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -28,6 +29,9 @@ namespace _20221125_ClienteNeptuno
             services.AddControllersWithViews();
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
+
+            // filters
+            services.AddControllers(options => options.Filters.Add(new SessionFilter()));
             //Vinculación de Interfaces con Services
             services.AddScoped(typeof(IOrdersService), typeof(OrdersService));
             services.AddScoped(typeof(IUsersService), typeof(UsersService));

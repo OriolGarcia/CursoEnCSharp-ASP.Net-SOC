@@ -1,4 +1,5 @@
-﻿using _20221125_ClienteNeptuno.Models;
+﻿using _20221125_ClienteNeptuno.Filters;
+using _20221125_ClienteNeptuno.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -18,22 +19,14 @@ namespace _20221125_ClienteNeptuno.Controllers
         {
             _logger = logger;
         }
-
+      //  [SessionFilter]
         public IActionResult Index()
         {
-            string userId = null;
-            string nombreUsuario = null;
-            try
-            {
-                userId= HttpContext.Session.GetString("UserId");
-                nombreUsuario=HttpContext.Session.GetString("UserName");
-            }
-            catch { }
-            ViewData["UserId"]=  userId;
-            ViewData["NombreUsuario"] = nombreUsuario;
+
+            
             return View();
         }
-
+     //   [SessionFilter]
         public IActionResult Privacy()
         {
             return View();

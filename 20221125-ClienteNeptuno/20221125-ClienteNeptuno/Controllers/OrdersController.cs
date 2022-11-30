@@ -1,4 +1,6 @@
-﻿using _20221125_ClienteNeptuno.Services.Interfaces;
+﻿using _20221125_ClienteNeptuno.Filters;
+using _20221125_ClienteNeptuno.Services.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
@@ -13,11 +15,26 @@ namespace _20221125_ClienteNeptuno.Controllers
         {
             service = _service;
         }
-
+        
+       
         public async Task<IActionResult> Index()
         {
+
+            if (HttpContext.Session.GetString("UserId") == null) { return RedirectToAction("Login", "Users"); }
+            
+            
             var orders = await service.GetPedidos();
             return View(orders);
+            /*
+
+            if (ViewData["UserId"] != null)
+            {
+                var orders = await service.GetPedidos();
+                return View(orders);
+            }
+            else{
+               return RedirectToAction("Login", "Users");
+            }^*/
         }
 
         //Ajax
