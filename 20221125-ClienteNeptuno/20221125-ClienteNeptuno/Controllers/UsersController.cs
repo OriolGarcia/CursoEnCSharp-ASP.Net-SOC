@@ -50,5 +50,13 @@ namespace _20221125_ClienteNeptuno.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Logout()
+        {
+
+            HttpContext.Session.Clear();
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }

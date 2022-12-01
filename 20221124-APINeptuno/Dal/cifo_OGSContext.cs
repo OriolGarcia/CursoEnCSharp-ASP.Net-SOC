@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.Extensions.Configuration;
 
 #nullable disable
 
@@ -37,8 +38,11 @@ namespace _20221124_APINeptuno.Dal
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseMySql("server=192.185.191.185;user id=cifo_OGS;password=Cifo2022$;database=cifo_OGS", Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.23-mysql"));
+
+                var config = new ConfigurationBuilder().AddJsonFile("appSettings.json").Build();
+                var connStr = config["ConnStr"];
+   
+                optionsBuilder.UseMySql(connStr, Microsoft.EntityFrameworkCore.ServerVersion.Parse("5.7.23-mysql"));
             }
         }
 

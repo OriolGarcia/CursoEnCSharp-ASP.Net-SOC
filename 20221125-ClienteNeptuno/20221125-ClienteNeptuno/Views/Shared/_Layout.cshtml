@@ -1,5 +1,9 @@
-﻿
+﻿@{
+    ViewData["Footer1"] = "";
 
+
+
+}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,7 +50,7 @@
                                                     <li>
                                                             Benvenido @ViewData["NombreUsuario"]
 
-                                                            <a href=""> Log out</a>
+                                                            <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Logout">Logout</a>
                                                     </li>
                                         }else{
                                             <li>
@@ -59,15 +63,14 @@
                             </div>
                         </nav>
                     </header>
-                    <div class="container">
-                        <main role="main" class="pb-3">
-                            @RenderBody()
-                        </main>
-                    </div>
-
+                     <main role="main" class="pb-3">     
+                         <div class="container">
+                            @RenderBody()   
+                        </div>
+                    </main>
                     <footer class="border-top footer text-muted">
                         <div class="container">
-                            &copy; 2022 - Cliente Neptuno - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            &copy;@DateTime.Now.Year - Cliente Neptuno - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </div>
                     </footer>
                     <script src="~/lib/jquery/dist/jquery.min.js"></script>
