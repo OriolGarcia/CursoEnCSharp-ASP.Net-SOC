@@ -705,3 +705,7 @@ C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\2
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\obj\Debug\netcoreapp3.1\20221125-ClienteNeptuno.dll
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\obj\Debug\netcoreapp3.1\20221125-ClienteNeptuno.pdb
 C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\obj\Debug\netcoreapp3.1\20221125-ClienteNeptuno.genruntimeconfig.cache
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Alumne_mati1\Documents\Oriol Garcia\Projectes\20221125-ClienteNeptuno\20221125-ClienteNeptuno\bin\Debug\netcoreapp3.1\WebEssentials.AspNetCore.OutputCaching.dll

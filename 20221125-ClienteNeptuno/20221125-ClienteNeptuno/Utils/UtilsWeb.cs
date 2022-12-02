@@ -3,6 +3,8 @@ using System.Net.Http;
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Configuration;
 
 namespace Utils
 {
@@ -34,14 +36,24 @@ namespace Utils
             string returntext = System.Text.Encoding.UTF8.GetString(mybyte);
             return returntext;
         }
-        public  static HttpClient GetClient(string urlBase)
+        public static HttpClient GetClient()
         {
+
+            //Leemo urlVas del appsetting.json
+            var config = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+            string urlBaseApi = config["UrlBase"];
             HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri(urlBase);
+            client.BaseAddress = new Uri(urlBaseApi);
             client.DefaultRequestHeaders.Accept
                 .Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
             return client;
+        }
+        public static void InvalidarSession(HttpContext context)
+        {
+            context.Session.Clear();
+            context.Response.Cookies.Delete("UserId");
+            context.Response.Cookies.Delete("UserName");
         }
     }
 }

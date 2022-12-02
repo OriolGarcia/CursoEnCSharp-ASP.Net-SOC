@@ -26,7 +26,8 @@ namespace _20221125_ClienteNeptuno.Controllers
             
             return View();
         }
-     //   [SessionFilter]
+        //   [SessionFilter]
+        [ResponseCache(Duration = 900)]
         public IActionResult Privacy()
         {
             return View();

@@ -18,7 +18,7 @@ namespace _20221125_ClienteNeptuno.Services
             //https://localhost:44392/api/orders/pedido?orderId=XXXXX
             string url = "api/orders/pedido?orderId=" + orderId;
 
-            HttpClient client =UtilsWeb.GetClient("https://localhost:44348");
+            HttpClient client =UtilsWeb.GetClient();
 
 			OrderExtended oe = null;
 			try
@@ -51,7 +51,7 @@ namespace _20221125_ClienteNeptuno.Services
             //https://localhost:44392/api/orders/pedidos
             string url = "api/orders/pedidos";
 
-			HttpClient client = UtilsWeb.GetClient("https://localhost:44348");
+			HttpClient client = UtilsWeb.GetClient();
 
 			List<PedidoExtended> pedidos = null;
 

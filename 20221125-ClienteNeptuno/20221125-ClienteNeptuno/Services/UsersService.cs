@@ -21,7 +21,7 @@ namespace _20221125_ClienteNeptuno.Services
             password = UtilsWeb.GetMD5(password);
             string url = "api/users/login?login=" + login+"&password="+password;
 
-            HttpClient client =UtilsWeb.GetClient("https://localhost:44348/");
+            HttpClient client =UtilsWeb.GetClient();
 
            User user = null;
             try

@@ -31,7 +31,8 @@ namespace _20221125_ClienteNeptuno
 
 
             // filters
-            services.AddControllers(options => options.Filters.Add(new SessionFilter()));
+            //services.AddControllers(options => options.Filters.Add(new SessionFilter()));
+            services.AddControllers(options => options.Filters.Add(new CookiesFilter()));
             //Vinculación de Interfaces con Services
             services.AddScoped(typeof(IOrdersService), typeof(OrdersService));
             services.AddScoped(typeof(IUsersService), typeof(UsersService));
@@ -40,6 +41,9 @@ namespace _20221125_ClienteNeptuno
             //session
 
             services.AddSession();
+
+            services.AddResponseCaching();
+            services.AddOutputCaching();
             services.AddMvc();
             /*
             services.AddSession(options =>
@@ -66,9 +70,10 @@ namespace _20221125_ClienteNeptuno
             }
 
             app.UseSession();
+            app.UseResponseCaching();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
+            app.UseOutputCaching();
             app.UseRouting();
 
             app.UseAuthorization();

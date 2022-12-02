@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Utils;
 
 namespace _20221125_ClienteNeptuno.Controllers
 {
@@ -15,12 +16,16 @@ namespace _20221125_ClienteNeptuno.Controllers
         {
             service = _service;
         }
-        
-       
+
+        [OutputCache(Duration = 120)]
         public async Task<IActionResult> Index()
         {
 
-            if (HttpContext.Session.GetString("UserId") == null) { return RedirectToAction("Login", "Users"); }
+            if (HttpContext.Session.GetString("UserId") == null) {
+                UtilsWeb.InvalidarSession(HttpContext);
+                HttpContext.Session.SetString("Redirect", "/Orders/Index");
+
+                return RedirectToAction("Login", "Users"); }
             
             
             var orders = await service.GetPedidos();
@@ -38,6 +43,7 @@ namespace _20221125_ClienteNeptuno.Controllers
         }
 
         //Ajax
+        [ResponseCache(Duration = 120, VaryByQueryKeys = new[] { "OrderId" })]
         public async Task<string> ViewDetail(int orderId)
         {
             var orderExtended = await service.GetDetails(orderId);
