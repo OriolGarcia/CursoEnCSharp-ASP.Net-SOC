@@ -1,0 +1,166 @@
+﻿@{
+	ViewData["Title"] = "Listado de pedidos con datatable SS";
+}
+
+<div class="row">
+	<div class="col">
+		<h1>@ViewData["Title"]</h1>
+
+		<table id="tblOrders" class="display nowrap dataTable dtr-column collapsed" style="width:100%">
+			<thead>
+				<tr>
+					<th data-priority="1">OrderId</th>
+					<th data-priority="3">Fecha</th>
+					<th data-priority="4">Cliente</th>
+					<th data-priority="5">Vendedor</th>
+					<th data-priority="6">Carrier</th>
+					<th data-priority="7">Importe</th>
+					<th data-priority="8">Costes Logísticos</th>
+					<th data-priority="2">Opciones</th>
+				</tr>
+			</thead>
+		</table>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () 
+	{
+		$('#tblOrders').DataTable(
+		{
+			"serverSide": true,
+			"processing": true,
+			"ordering": true,
+			"iDisplayLength": 25,
+			"ajax":
+			{
+				"url": "/Orders/LoadDataOrders",
+				"type": "POST",
+				"datatype": "json"
+			},
+			"columns": [
+				{
+					"data": "OrderId", "name": "OrderId", "autowidth": false, "className": "dt-body-center",
+					"render": function (data, type, row) 
+					{
+						console.log(row);
+						return "<b>" + row.orderId + "</b>";
+					}
+				},
+				{
+					"data": "OrderDate", "name": "OrderDate", "autowidth": false, "className": "dt-body-center",
+					"render": function (data, type, row) 
+					{
+						return row.orderDate;
+					}
+				},
+				{
+					"data": "CustomerName", "name": "CustomerName", "autowidth": false, "className": "dt-body-left",
+					"render": function (data, type, row) 
+					{
+						return row.customerName;
+					}
+				},
+				{
+					"data": "EmployeeName", "name": "EmployeeName", "autowidth": false, "className": "dt-body-left",
+					"render": function (data, type, row) 
+					{
+						return row.employeeName;
+					}
+				},
+				{
+					"data": "ShipperName", "name": "ShipperName", "autowidth": false, "className": "dt-body-left",
+					"render": function (data, type, row) 
+					{
+						return row.shipperName;
+					}
+				},
+				{
+					"data": "Amount", "name": "Amount", "autowidth": false, "className": "dt-body-right",
+					"render": function (data, type, row) 
+					{
+						return row.amount;
+					}
+				},
+				{
+					"data": "Freight", "name": "Freight", "autowidth": false, "className": "dt-body-right",
+					"render": function (data, type, row) 
+					{
+						return row.freight;
+					}
+				},
+				{
+					"data": null, "autowidth": false, "className": "dt-body-center",
+						"render": function (data, type, row) 
+						{
+							var view = '<a id="link_' + row.orderId + '" href="javascript:void(0);" onclick="viewOrder(' + row.orderId + ');">' +
+								'<i class="fa fa-eye" aria-hidden="true"></i>' +
+								'</a>';
+
+							var excel = '<a href="javascript:void(0);" onclick="getExcel(' + row.orderId + ')">' +
+								'<i class="fa fa-file-excel-o" aria-hidden="true"></i>' +
+								'</a>';
+
+							var pdf = '<a href="javascript:void(0);" onclick="getPdf(' + row.orderId + ')">' +
+								'<i class="fa fa-file-pdf-o" aria-hidden="true"></i>' +
+								'</a>';
+
+							var editar = '<a href="javascript:void(0);" onclick="editExcel(' + row.orderId + ')">' +
+								'<i class="fa fa-pencil-square-o" aria-hidden="true"></i>' +
+								'</a>';
+
+
+						return view + " "+excel + " "+pdf + " "+editar;
+					}
+				}
+			]
+		});
+	});
+
+	function getExcel(orderId)
+	{
+		//Llamada AJAX para generar el Excel correspondiente
+		$.ajax
+		(
+			{
+				url: "/Orders/GetExcel",
+				data: { orderId: orderId },
+				type: "GET",
+				success: function (resp) 
+				{
+					//Download Fichero Excel
+					//Intentar cargarlo y se provocará el download
+					location.href="/orders/"+resp;
+				},
+				error: function () 
+				{
+					alert("No se ha podido generar el Excel del pedido");
+				}
+			}
+		)
+
+	}
+
+	function getPdf(orderId) 
+	{
+		//Llamada AJAX para generar el Excel correspondiente
+		$.ajax
+		(
+			{
+				url: "/Orders/GetPdf",
+				data: { orderId: orderId },
+				type: "GET",
+				success: function (resp) 
+				{
+					//Mostrar el documento PDF
+					location.href="/pdfs/"+resp;
+				},
+				error: function () {
+					alert("No se ha podido generar el PDF del pedido");
+				}
+			}
+		)
+	}
+
+
+</script>

@@ -1,0 +1,128 @@
+﻿@using APINeptuno.Models
+@model List<PedidoExtended>
+@{
+	ViewData["Title"] = "Listado de pedidos con datatable";
+}
+
+<div class="row">
+	<div class="col">
+		<h1>@ViewData["Title"]</h1>
+
+		<table id="tblOrders" class="display flex-lg-nowrap dataTable dtr-column collapsed">
+			<thead>
+				<tr>
+					<th></th>
+					<th data-priority="1">OrderId</th>
+					<th data-priority="2">Fecha</th>
+					<th data-priority="4">Cliente</th>
+					<th data-priority="5">Vendedor</th>
+					<th data-priority="6">Carrier</th>
+					<th data-priority="7">Importe</th>
+					<th data-priority="8">Costes Logísticos</th>
+					<th data-priority="2">Opciones</th>
+				</tr>
+			</thead>
+			<tbody>
+			@{
+				foreach (var item in Model)
+				{
+								<tr>
+									<td></td>
+									<td>@item.OrderId</td>
+									<td>@DateTime.Parse(item.OrderDate.ToString()).ToShortDateString()</td>
+									<td>@item.CustomerName</td>
+									<td>@item.EmployeeName</td>
+									<td>@item.ShipperName</td>
+									<td>@decimal.Parse(item.Amount.ToString()).ToString("N2")</td>
+									<td>@decimal.Parse(item.Freight.ToString()).ToString("N2")</td>
+									<td>
+										<a id="link_@item.OrderId" href="javascript:void(0);" onclick="viewOrder(item.OrderId);">
+											<i class="fa fa-eye" aria-hidden="true"></i>
+										</a>
+									</td>
+								</tr>
+							
+				}
+			}
+			</tbody>
+			<tfoot>
+				<tr>
+					<th></th>
+					<th data-priority="1">OrderId</th>
+					<th data-priority="2">Fecha</th>
+					<th data-priority="4">Cliente</th>
+					<th data-priority="5">Vendedor</th>
+					<th data-priority="6">Carrier</th>
+					<th data-priority="7">Importe</th>
+					<th data-priority="8">Costes Logísticos</th>
+					<th data-priority="2">Opciones</th>
+				</tr>
+			</tfoot>
+		</table>		
+
+
+	</div>
+</div>
+
+<script>
+	//lllamada a la biblteca data table
+	$(document).ready(function () {
+		$('#tblOrders').DataTable({responsive:true});
+	});
+
+	function viewOrder(orderId)
+	{
+		var estado = $("#cpaPedido_"+orderId).css("display");
+		if (estado=="none")
+		{
+			//Desplegar
+			$("#cpaPedido_" + orderId).css("display","table-row");
+
+			//Reloj
+			$("#tdPedido_" + orderId)
+				.html("<img src='/images/loading.gif' width='50' />");
+
+			//Inhabilitar
+			$("#link_" + orderId).css("display","none");
+
+			//Ajax
+			//TO_DO
+			$.ajax
+			(
+				{
+					url: "/Orders/ViewDetail",
+					data: { orderId: orderId },
+					type: "GET",
+					success: function (resp) 
+					{
+						//Update UI
+						$("#tdPedido_" + orderId)
+							.html(resp);
+						
+						$("#link_" + orderId).css("display","block");
+					},
+					error: function () 
+					{
+						$("#tdPedido_" + orderId)
+							.html("<p class='text-danger'>Se ha producido un error. Inténtelo más tarde</p>");
+						
+						$("#link_" + orderId).css("display","block");
+					}
+				}
+			)
+
+		}
+		else
+		{
+			//Plegar
+			$("#cpaPedido_" + orderId).css("display", "none");
+		}
+	}
+
+	function adjustColor(orderId,productId)
+	{
+		$("#tooltip_"+orderId+"_"+productId).css("color","red");
+
+		//AJAX
+	}
+</script>

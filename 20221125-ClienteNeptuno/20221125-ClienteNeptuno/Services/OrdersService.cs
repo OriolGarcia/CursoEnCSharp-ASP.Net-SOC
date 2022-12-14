@@ -7,6 +7,7 @@ using System;
 using System.Threading.Tasks;
 using System.Text.Json;
 using Utils;
+using _20221125_ClienteNeptuno.Models;
 
 namespace _20221125_ClienteNeptuno.Services
 {
@@ -15,7 +16,7 @@ namespace _20221125_ClienteNeptuno.Services
 		public async Task<OrderExtended> GetDetails(int orderId)
 		{
             //Conexión con el WEBAPI
-            //https://localhost:44392/api/orders/pedido?orderId=XXXXX
+            //https://localhost:44348/api/orders/pedido?orderId=XXXXX
             string url = "api/orders/pedido?orderId=" + orderId;
 
             HttpClient client =UtilsWeb.GetClient();
@@ -42,37 +43,95 @@ namespace _20221125_ClienteNeptuno.Services
 
 			return oe;
         }
+        public async Task<OrderDocument> GetExcel(int orderId)
+        {
+            //Conexión con el WEBAPI
+            //https://localhost:44348/api/orders/excel?orderId=XXXXX
+            string url = "api/orders/excel?orderId=" + orderId;
 
-	
+            HttpClient client = Utils.UtilsWeb.GetClient();
+
+            OrderDocument od = null;
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    //Deserialización de datos
+                    string data = await response.Content.ReadAsStringAsync();
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true,
+                    };
+                    od = JsonSerializer.Deserialize<OrderDocument>(data, options);
+                }
+            }
+            catch (Exception err)
+            {
+            }
+
+            return od;
+        }
+
 
         public async Task<List<PedidoExtended>> GetPedidos()
-		{
+        {
             //Conexión con el WEBAPI
-            //https://localhost:44392/api/orders/pedidos
+            //https://localhost:44348/api/orders/pedidos
             string url = "api/orders/pedidos";
 
-			HttpClient client = UtilsWeb.GetClient();
+            HttpClient client = Utils.UtilsWeb.GetClient();
 
-			List<PedidoExtended> pedidos = null;
+            List<PedidoExtended> pedidos = null;
 
-			try
-			{
-				HttpResponseMessage response = await client.GetAsync(url);
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(url);
 
-				if (response.IsSuccessStatusCode)
-				{
-					//Deserialización de datos
-					string data = await response.Content.ReadAsStringAsync();
-					var options = new JsonSerializerOptions
-					{
-						PropertyNameCaseInsensitive = true,
-					};
-					pedidos = JsonSerializer.Deserialize<List<PedidoExtended>>(data, options);
-				}
-			}
-			catch { }
+                if (response.IsSuccessStatusCode)
+                {
+                    //Deserialización de datos
+                    string data = await response.Content.ReadAsStringAsync();
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true,
+                    };
+                    pedidos = JsonSerializer.Deserialize<List<PedidoExtended>>(data, options);
+                }
+            }
+            catch { }
 
             return pedidos;
-		}
+        }
+        public async Task<ListPedidoExtended> GetPedidos(int skip, int pageSize, string sortColumn, string sortColumnDir, string search)
+		{
+            //Conexión con el WEBAPI
+            //https://localhost:44348/api/orders/pedidos
+            string url = "api/orders/pedidoss?skip="+skip+"&pageSize="+pageSize+"&sortColum="+sortColumn+"&sortColumnDir="+sortColumnDir+"&search="+search;
+
+            HttpClient client = UtilsWeb.GetClient();
+
+            ListPedidoExtended pedidos = null;
+
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(url);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    //Deserialización de datos
+                    string data = await response.Content.ReadAsStringAsync();
+                    var options = new JsonSerializerOptions
+                    {
+                        PropertyNameCaseInsensitive = true,
+                    };
+                    pedidos = JsonSerializer.Deserialize<ListPedidoExtended>(data, options);
+                }
+            }
+            catch { }
+
+            return pedidos;
+        }
 	}
 }

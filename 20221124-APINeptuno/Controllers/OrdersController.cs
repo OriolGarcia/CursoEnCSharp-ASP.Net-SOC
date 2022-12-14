@@ -39,6 +39,52 @@ namespace _20221124_APINeptuno.Controllers
 
         }
         [HttpGet]
+        [Route("pedidoss")]
+        public ListPedidoExtended GetPedidos(int skip, int pageSize, string sortColumn, string sortColumnDir, string search)
+        {
+            var dbContext = new cifo_OGSContext();
+            var pedidos = dbContext.OrderDetails.OrderBy(o => o.Order.OrderDate)
+                .GroupBy(od => new {
+                    OrderId = od.OrderId,
+                    OrderDate = od.Order.OrderDate,
+                    CustomerName = od.Order.Customer.CompanyName,
+                    EmployeeName = od.Order.Employee.FirstName + " " + od.Order.Employee.LastName,
+                    ShipperName = od.Order.ShipViaNavigation.CompanyName,
+                    Freight = od.Order.Freight
+                }).Select(g => new PedidoExtended
+                {
+                    OrderId = g.Key.OrderId,
+                    OrderDate = g.Key.OrderDate,
+                    CustomerName = g.Key.CustomerName,
+                    EmployeeName = g.Key.EmployeeName,
+                    ShipperName = g.Key.ShipperName,
+                    Freight = g.Key.Freight,
+                    Amount = g.Sum(d => d.Quantity * d.UnitPrice + (1 - (decimal)d.Discount))
+
+                })
+                .ToList();
+           // int recordCount=pedidos.Count;
+
+            //buscar si el search tiene valor
+            if(search!="" && search != null)
+            {
+
+
+                pedidos= pedidos.Where(p=>p.CustomerName.ToLower().Contains(search.ToLower())|| p.EmployeeName.ToLower().Contains(search.ToLower())||p.ShipperName.ToLower().Contains(search.ToLower())).ToList();
+            }
+            int recordCount = pedidos.Count;
+
+
+            //ordenar
+            if (sortColumn!=null&& sortColumn != "") { }
+            //Tomar los x registros
+            pedidos = pedidos.Skip(skip).Take(pageSize).ToList();
+           
+            ListPedidoExtended lpe = new ListPedidoExtended { Data = pedidos, RecordCount = recordCount };
+            return lpe;
+
+        }
+        [HttpGet]
         [Route("pedido")]
         public OrderExtended GetDetallePedido(int orderId)
         {

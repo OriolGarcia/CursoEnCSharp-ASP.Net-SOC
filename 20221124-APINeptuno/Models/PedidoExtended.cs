@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace APINeptuno.Models
 {
@@ -12,5 +13,14 @@ namespace APINeptuno.Models
 
         public decimal? Amount { get; set; }
         public decimal? Freight { get; set; }
+    }
+    public class ListPedidoExtended
+    {
+        public List<PedidoExtended> Data { get; set; }
+        public int RecordCount { get; set; }
+
+
+
+
     }
 }
