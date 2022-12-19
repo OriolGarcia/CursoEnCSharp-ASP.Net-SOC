@@ -1,0 +1,163 @@
+﻿@using System.IO
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	ViewData["Title"] = "Active Products";
+}<div class="row">
+	<div class="col" style="text-align:center;margin-bottom:25px;">
+		<h1>@ViewData["Title"]</h1>
+	</div>
+</div>
+<!-- Panel filtrado-->
+<div class="row">
+	<div class="col">
+		<div class="table-responsive">
+			<table id="tblProducts" class="table table-bordered table-striped">
+				<thead>
+					<tr>
+						<th></th>
+						<th>Product</th>
+						<th>Category</th>
+						<th>Suplier</th>
+						<th>Country</th>
+						<th>Price</th>
+						<th>Stock</th>
+						<th>Options</th>
+					</tr>
+				</thead>
+
+				@{
+					foreach (var item in (List<ProductSlim>)ViewData["products"])
+					{
+						string imagen = "";
+						string nombreImagen = item.ProductId + ".png";
+						//string nombreImagenHR = item.ProductId + ".png";
+						var path = (string)AppDomain.CurrentDomain.GetData("WebRootPath") +
+						"wwwroot\\images\\" + nombreImagen;
+
+						if (File.Exists(path))
+						{
+							imagen = "<a href='/images/products/" + nombreImagen + "' " +
+							"data-lightbox='image-" + item.ProductId + "' data-title='" + item.ProductName + "'> " +
+							"<img src='/images/products/" + nombreImagen + "' height='75' />" +
+							"</a>";
+						}
+
+
+
+
+							<tr>
+								<td>
+									<a href="javascript:void(0);" onclick="viewProduct(@item.ProductId);" data-target="#modProduct" data-toggle="modal">
+										<i class="fa fa-eye" aria-hidden="true"></i>
+									</a>
+								</td>
+								<td>@item.ProductName</td>
+								<td>@item.CategoryName</td>
+								<td>@item.Suplier</td>
+								<td>@item.Country</td>
+								<td>@item.Price</td>
+								<td>@item.Stock</td>
+								<td></td>
+							</tr>
+					}
+				}
+			</table>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col text-center">
+		<input type="button" class="btn btn-primary" value="Back to Home"
+			   onclick="backHome();" />
+
+		<a href="/Home/Index" class="btn btn-primary" role="button">Back to Home</a>
+	</div>
+</div>
+
+<!-- Modal para proveedores -->
+<div class="modal" id="modProduct" tabindex="-1">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Imagen del empleado</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body text-center" id="imgProducto">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		$('#tblProducts').DataTable(
+			{
+				responsive: true
+			});
+	});
+	function backHome()
+	{
+		//Hacer algo importante
+		//...
+
+		//Redirección
+		location.href="/home/Index";
+	}
+	function changeState(productId)
+	{
+		var content = $("#state_" + productId).html()
+		$("#state_" + productId).html("<img src='/images/loading.gif' width='32'/>");
+		
+		$.ajax({
+			// la URL para la petición
+			url: '/Products/ChangeState',
+
+			data: { productId: productId },
+
+			type: 'GET',
+
+
+			// código a ejecutar si la petición es satisfactoria;
+			// la respuesta es pasada como argumento a la función
+			success: function (resp) {
+
+				var strState = "<a href='javascript:void(0);' onClick='changeState(" + productId + ");'>" + resp + "</a>";
+				$("#state_"+productId).html(strState);
+				
+			},
+
+			// código a ejecutar si la petición falla;
+			// son pasados como argumentos a la función
+			// el objeto de la petición en crudo y código de estatus de la petición
+			error: function () {
+
+				alert('Se ha producido un error');
+				$("#state_" + productId).html(content);
+			},
+
+			// código a ejecutar sin importar si la petición falló o no
+			complete: function (xhr, status) {
+				//alert('Petición realizada');
+			}
+		});
+	}
+	function search(){
+		//Recoger parametros del buscador y recargar página con parametros
+		var categoria=$("#cmbCategorias").val();
+		var texto=$("#txtSearch").val();
+		location.href="/Products/Index?CategoryId="+categoria+"&search="+texto;
+
+	}
+	function viewProduct(idProducto) {
+		alert(idProducto);
+		$("#imgProducto").html("<img src='/images/" + idProducto + ".png' width='100' />");
+	}
+</script>

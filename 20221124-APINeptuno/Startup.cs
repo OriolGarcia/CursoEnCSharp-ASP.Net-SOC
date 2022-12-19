@@ -31,6 +31,22 @@ namespace _20221124_APINeptuno
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+
+            //Control errores 404 u SEO
+
+            app.Use(async (context, next) =>
+            {
+                await next();
+                if (context.Response.StatusCode == 404)
+                {
+                    string pathReal = DescodificarSEO(context.Request.Path);
+                    context.Request.Path = pathReal;
+                    await next();
+                }
+            });
+
+
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -47,5 +63,18 @@ namespace _20221124_APINeptuno
                 endpoints.MapControllers();
             });
         }
-    }
+        private string DescodificarSEO(string path)
+        {
+            var newPath = "";
+            if (path.Contains("politica-privacidad"))
+            {
+                newPath = "/Home/Privacy";
+            }
+            else
+            {
+                newPath = "/Home/Error";
+            }
+            return newPath; ;
+        }
+        }
 }

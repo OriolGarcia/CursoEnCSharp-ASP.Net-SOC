@@ -1,0 +1,54 @@
+﻿@{
+	ViewData["Title"] = "Partner Neptuno";
+}
+
+<div class="row">
+	<div class="col">
+		<h1>@ViewData["Title"]</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col">
+		<h2>Información sobre Neptuno</h2>
+		<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col">
+		<h2>Servicios Neptuno</h2>
+		<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col">
+		<h2>¿Por qué debería ser cliente de Neptuno</h2>
+		<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.</p>
+	</div>
+</div>
+<div class="row">
+	<div class="col" style="text-align:center;">
+		<button class="btn btn-primary" onclick="showData();">Mostrar ventas de Neptuno</button>
+	</div>
+</div>
+<div class="row">
+	<div class="col" id="lstPartners" style="margin-top:20px;font-weight:bold;text-align:center;width:60%;">
+	</div>
+</div>
+
+<script>
+	function showData() {
+		$.ajax
+			(
+				{
+					url: "/Home/GetOrders",
+					type: "GET",
+					success: function (resp) {
+						//Update UI
+						$("#lstPartners").html(resp);
+					},
+					error: function () {
+					}
+				}
+			)
+	}
+</script>

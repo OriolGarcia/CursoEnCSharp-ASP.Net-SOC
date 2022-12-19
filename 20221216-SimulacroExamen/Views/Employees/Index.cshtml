@@ -1,0 +1,141 @@
+﻿@using System.IO
+@using _20221216_SimulacroExamen.Dal;
+@{
+	ViewData["Title"] = "Employees of USA";
+}
+@{
+	ViewData["Title"] = "Employees of USA";
+}
+
+<div class="row">
+	<div class="col" style="text-align:center;margin-bottom:25px;">
+		<h1>@ViewData["Title"]</h1>
+	</div>
+</div>
+<!-- Panel filtrado-->
+<div class="row">
+	<div class="col">
+		<div class="table-responsive">
+			<table id="tblEmployees"  class="table table-bordered table-striped">
+				<thead>
+					<tr><th></th>
+						<th>Employee</th>
+						<th>Title</th>
+						<th>TitleOfCourtesy</th>
+						<th>Country</th>
+						<th>DateHire</th>
+						<th>Salary</th>
+						<th>Options</th>
+					</tr>
+				</thead>
+				
+				@{
+					foreach (var item in (List<EmployeeSlim>)ViewData["employees"])
+					{
+						string imagen = "";
+						string nombreImagen = item.EmployeeId + ".png";
+						//string nombreImagenHR = item.ProductId + ".png";
+						var path = (string)AppDomain.CurrentDomain.GetData("WebRootPath") + 
+							"wwwroot\\images\\" + nombreImagen;
+
+						if (File.Exists(path))
+						{
+							imagen = "<a href='/images/products/" + nombreImagen+ "' " +
+									"data-lightbox='image-"+item.EmployeeId+"' data-title='" + item.Employee + "'> " +
+											"<img src='/images/products/" + nombreImagen + "' height='75' />" +
+										"</a>";
+						}
+
+					
+
+
+						<tr>
+																					<td>
+																						<a id="link_@item.EmployeeId" href="javascript:void(0);" onclick="viewEmployee(@item.EmployeeId;">
+																							<i class="fa fa-eye" aria-hidden="true"></i>
+																						</a>
+																					</td>
+																			<td>@item.Employee</td>
+																			<td>@item.Title</td>
+																			<td>@item.TitleOfCourtesy</td>
+																			<td>@item.Country</td>
+																			<td >@item.HireDate</td>
+																			<td>@item.Salary</td>
+																			<td></td>
+																		</tr>
+					}
+				}
+			</table>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col text-center">
+		<input type="button" class="btn btn-primary" value="Back to Home" 
+			onclick="backHome();" />
+
+		<a href="/Home/Index" class="btn btn-primary" role="button">Back to Home</a>
+	</div>
+</div>
+
+<script>
+	$(document).ready(function () {
+		$('#tblEmployees').DataTable(
+			{
+				responsive: true
+			});
+	});
+	function backHome()
+	{
+		//Hacer algo importante
+		//...
+
+		//Redirección
+		location.href="/home/Index";
+	}
+	function changeState(productId)
+	{
+		var content = $("#state_" + productId).html()
+		$("#state_" + productId).html("<img src='/images/loading.gif' width='32'/>");
+		
+		$.ajax({
+			// la URL para la petición
+			url: '/Products/ChangeState',
+
+			data: { productId: productId },
+
+			type: 'GET',
+
+
+			// código a ejecutar si la petición es satisfactoria;
+			// la respuesta es pasada como argumento a la función
+			success: function (resp) {
+
+				var strState = "<a href='javascript:void(0);' onClick='changeState(" + productId + ");'>" + resp + "</a>";
+				$("#state_"+productId).html(strState);
+				
+			},
+
+			// código a ejecutar si la petición falla;
+			// son pasados como argumentos a la función
+			// el objeto de la petición en crudo y código de estatus de la petición
+			error: function () {
+
+				alert('Se ha producido un error');
+				$("#state_" + productId).html(content);
+			},
+
+			// código a ejecutar sin importar si la petición falló o no
+			complete: function (xhr, status) {
+				//alert('Petición realizada');
+			}
+		});
+	}
+	function search(){
+		//Recoger parametros del buscador y recargar página con parametros
+		var categoria=$("#cmbCategorias").val();
+		var texto=$("#txtSearch").val();
+		location.href="/Products/Index?CategoryId="+categoria+"&search="+texto;
+
+	}
+</script>
