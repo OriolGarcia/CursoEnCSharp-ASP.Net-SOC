@@ -47,7 +47,7 @@ namespace OGS_ExamentM3.Controllers
             var total = dbContext.OrderDetails.Sum(s => s.Quantity * (double)s.UnitPrice * (1 - s.Discount)).ToString();
             string resp = "";
 
-            resp += "<div>Total de ventas:" + total + "</div>";
+            resp += "<div>Total de ventas:" + total + "$ </div>";
 
             return resp;
         }
